@@ -35,3 +35,7 @@ body {
 a:hover {
   color: rgba(153, 153, 153, 1);
 }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
